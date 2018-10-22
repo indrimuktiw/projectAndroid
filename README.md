@@ -1,7 +1,7 @@
 # projectAndroid
 # Nama : 
-### Indri Mukti Rahayu K.W 14
-### Suci Gading Imanita 29
+### Indri Mukti Rahayu K.W /14
+### Suci Gading Imanita    /29
 # Judul :
 ### Lowongan Pekerjaan
 # Deskripsi
