@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.acer.uts2">
+    package="com.example.acer.adminlowker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"/>
-        <activity android:name=".MainActivity2"/>
+        <!-- <activity android:name=".LayarDetail"></activity> -->
+        <activity
+            android:name=".LayarDetail"
+            android:label="Detail Trans Info Lowongan" />
+        <activity
+            android:name=".LayarListPerusahaan"
+            android:label="List Perusahaan" />
+        <activity android:name=".LayarInsertPerusahaan"
+            android:label="Insert Perusahaan"/>
+        <activity android:name=".LayarEditPerusahaan"
+            android:label="Edit Perusahaan" ></activity>
 
+        <activity android:name=".MainActivity2"/>
     </application>
 
 </manifest>

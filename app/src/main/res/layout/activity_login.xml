@@ -6,9 +6,11 @@
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="16dp">
+    android:paddingTop="16dp"
+    android:background="@drawable/awal1"
+    >
 
-   <View
+    <View
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:id="@+id/blank_top">
@@ -20,10 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="87dp"
-        android:text="Job Vacancy"
+        android:layout_marginTop="50dp"
+        android:text="Init Job Vacancy"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:textSize="24dp"
         android:textStyle="bold" />
 
@@ -48,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/blank_mid"
         android:layout_centerHorizontal="true"
-        android:text="Masukkan username dan password"
+        android:text="Silahkan  Login Terlebih Dahulu"
         android:textAlignment="center"
         android:textStyle="bold" />
 
@@ -87,10 +89,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="166dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
 
         android:text="LOGIN"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <View
         android:layout_width="match_parent"
